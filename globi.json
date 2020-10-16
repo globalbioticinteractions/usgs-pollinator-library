@@ -1,0 +1,114 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "Pollinator_Library_Visits_Dataset.tsv",
+    "dcterms:bibliographicCitation" : "United States Geological Survey (USGS) Pollinator Library. https://www.npwrc.usgs.gov/pollinator.",
+    "delimiter" : "\t",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "interactionTypeId" : "http://purl.obolibrary.org/obo/RO_0002455",
+    "interactionTypeName" : "pollinates",
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "sourceOccurrenceId",
+        "titles" : "Pollinator Library ID",
+        "datatype" : "string"
+      }, {
+        "name" : "Determined By",
+        "titles" : "Determined By",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonOrder",
+        "titles" : "Order",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonFamily",
+        "titles" : "Family",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonGenus",
+        "titles" : "Genus",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSpecificEpithet",
+        "titles" : "Species",
+        "datatype" : "string"
+      }, {
+        "name" : "Origin Facility",
+        "titles" : "Origin Facility",
+        "datatype" : "string"
+      }, {
+        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
+        "titles" : "Date",
+        "datatype" : "string"
+      }, {
+        "name" : "Time",
+        "titles" : "Time",
+        "datatype" : "string"
+      }, {
+        "name" : "Collected By",
+        "titles" : "Collected By",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonOrder",
+        "titles" : "Plant Order",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonFamily",
+        "titles" : "Plant Family",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonGenus",
+        "titles" : "Plant Genus",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonSpecificEpithet",
+        "titles" : "Plant Species",
+        "datatype" : "string"
+      }, {
+        "name" : "Land Use",
+        "titles" : "Land Use",
+        "datatype" : "string"
+      }, {
+        "name" : "locality",
+        "titles" : "State Collected",
+        "datatype" : "string"
+      }, {
+        "name" : "County Collected",
+        "titles" : "County Collected",
+        "datatype" : "string"
+      }, {
+        "name" : "Elevation (m)",
+        "titles" : "Elevation (m)",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLongitude",
+        "titles" : "Longitude",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLatitude",
+        "titles" : "Latitude",
+        "datatype" : "string"
+      }, {
+        "name" : "Average Wind Speed (km/h)",
+        "titles" : "Average Wind Speed (km/h)",
+        "datatype" : "string"
+      }, {
+        "name" : "Air temperature (°C)",
+        "titles" : "Air temperature (°C)",
+        "datatype" : "string"
+      }, {
+        "name" : "Relative Humidity (%)",
+        "titles" : "Relative Humidity (%)",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
