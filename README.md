@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.com/globalbioticinteractions/ucsg-pollinator-library.svg)](https://travis-ci.com/globalbioticinteractions/ucsg-pollinator-library) [![GloBI](http://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:globalbioticinteractions/ucsg-pollinator-library)](http://globalbioticinteractions.org/?accordingTo=globi:globalbioticinteractions/ucsg-pollinator-library)
 
-Configuration to help Global Biotic Interactions (GloBI, https://globalbioticinteractions.org) index: 
+Configuration to help Global Biotic Interactions (GloBI, https://globalbioticinteractions.org) index the: 
 
 United States Geological Survey (USGS) Pollinator Library. https://www.npwrc.usgs.gov/pollinator.
 
