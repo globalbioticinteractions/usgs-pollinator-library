@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/globalbioticinteractions/ucsg-pollinator-library.svg)](https://travis-ci.com/globalbioticinteractions/ucsg-pollinator-library) [![GloBI](http://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:globalbioticinteractions/ucsg-pollinator-library)](http://globalbioticinteractions.org/?accordingTo=globi:globalbioticinteractions/ucsg-pollinator-library)
+[![Build Status](https://travis-ci.com/globalbioticinteractions/usgs-pollinator-library.svg)](https://travis-ci.com/globalbioticinteractions/usgs-pollinator-library) [![GloBI](http://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:globalbioticinteractions/usgs-pollinator-library)](http://globalbioticinteractions.org/?accordingTo=globi:globalbioticinteractions/usgs-pollinator-library)
 
 Configuration to help Global Biotic Interactions (GloBI, https://globalbioticinteractions.org) index the: 
 
