@@ -8,85 +8,149 @@
       "@language" : "en"
     } ],
     "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
-    "url" : "Pollinator_Library_Visits_Dataset.tsv",
-    "dcterms:bibliographicCitation" : "United States Geological Survey (USGS) Pollinator Library. https://www.npwrc.usgs.gov/pollinator.",
-    "delimiter" : "\t",
+    "url" : "https://www.sciencebase.gov/catalog/file/get/5f076d2082ce21d4c3fb7426?f=__disk__c5%2F05%2Fa4%2Fc505a40f8b320c4d1444ba286d4e7ec1143390a9",
+    "doi": "10.5066/P9DSS3VL",
+    "dcterms:bibliographicCitation" : "Clint Otto, Russ Bryant, and Ned H. Euliss Jr., 2020, The U.S. Geological Survey Pollinator Library Dataset: U.S. Geological Survey. https://doi.org/10.5066/P9DSS3VL",
+    "delimiter" : ",",
     "headerRowCount" : 1,
     "null" : [ "" ],
-    "interactionTypeId" : "http://purl.obolibrary.org/obo/RO_0002455",
-    "interactionTypeName" : "pollinates",
+    "interactionTypeName": "visitsFlowersOf",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002622",
     "tableSchema" : {
       "columns" : [ {
-        "name" : "sourceOccurrenceId",
-        "titles" : "Pollinator Library ID",
+        "name" : "sourceCatalogNumber",
+        "titles" : "Pollinator_Library_ID",
         "datatype" : "string"
       }, {
-        "name" : "Determined By",
-        "titles" : "Determined By",
+        "name" : "Physical_Location_of_Insect_Specimen",
+        "titles" : "Physical_Location_of_Insect_Specimen",
         "datatype" : "string"
       }, {
-        "name" : "sourceTaxonOrder",
-        "titles" : "Order",
+        "name" : "Determined_By",
+        "titles" : "Determined_By",
         "datatype" : "string"
       }, {
-        "name" : "sourceTaxonFamily",
-        "titles" : "Family",
+        "name" : "sourceTaxonOrderName",
+        "titles" : "Insect_Order",
         "datatype" : "string"
       }, {
-        "name" : "sourceTaxonGenus",
-        "titles" : "Genus",
+        "name" : "sourceTaxonFamilyName",
+        "titles" : "Insect_Family",
         "datatype" : "string"
       }, {
-        "name" : "sourceTaxonSpecificEpithet",
-        "titles" : "Species",
+        "name" : "sourceTaxonSubfamilyName",
+        "titles" : "Insect_Subfamily",
         "datatype" : "string"
       }, {
-        "name" : "Origin Facility",
-        "titles" : "Origin Facility",
+        "name" : "sourceTaxonTribeName",
+        "titles" : "Insect_Tribe",
         "datatype" : "string"
       }, {
-        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
-        "titles" : "Date",
+        "name" : "sourceTaxonGenusName",
+        "titles" : "Insect_Genus",
         "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSubgenusName",
+        "titles" : "Insect_Subgenus",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSpecificEpithetName",
+        "titles" : "Insect_Species",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "Insect_Scientific_Name",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceSexName",
+        "titles" : "Sex",
+        "datatype" : "string"
+      }, {
+        "name": "http://rs.tdwg.org/dwc/terms/eventDate",
+        "titles": "Date",
+        "datatype": {
+          "base": "date",
+          "format": "MM/dd/YY"
+        }
       }, {
         "name" : "Time",
         "titles" : "Time",
         "datatype" : "string"
       }, {
-        "name" : "Collected By",
-        "titles" : "Collected By",
+        "name" : "Time_Zone",
+        "titles" : "Time_Zone",
         "datatype" : "string"
       }, {
-        "name" : "targetTaxonOrder",
-        "titles" : "Plant Order",
+        "name" : "Collected_By",
+        "titles" : "Collected_By",
         "datatype" : "string"
       }, {
-        "name" : "targetTaxonFamily",
-        "titles" : "Plant Family",
+        "name" : "Collection_Method",
+        "titles" : "Collection_Method",
         "datatype" : "string"
       }, {
-        "name" : "targetTaxonGenus",
-        "titles" : "Plant Genus",
+        "name" : "Observed_Behavior_of_Insect_Visitor",
+        "titles" : "Observed_Behavior_of_Insect_Visitor",
         "datatype" : "string"
       }, {
-        "name" : "targetTaxonSpecificEpithet",
-        "titles" : "Plant Species",
+        "name" : "targetTaxonOrderName",
+        "titles" : "Plant_Order",
         "datatype" : "string"
       }, {
-        "name" : "Land Use",
-        "titles" : "Land Use",
+        "name" : "targetTaxonFamilyName",
+        "titles" : "Plant_Family",
         "datatype" : "string"
       }, {
-        "name" : "locality",
-        "titles" : "State Collected",
+        "name" : "targetTaxonGenusName",
+        "titles" : "Plant_Genus",
         "datatype" : "string"
       }, {
-        "name" : "County Collected",
-        "titles" : "County Collected",
+        "name" : "targetTaxonSpecificEpithetName",
+        "titles" : "Plant_Species",
         "datatype" : "string"
       }, {
-        "name" : "Elevation (m)",
-        "titles" : "Elevation (m)",
+        "name" : "targetTaxonName",
+        "titles" : "Plant_Scientific_Name",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonVarietyName",
+        "titles" : "Plant_Variety",
+        "datatype" : "string"
+      }, {
+        "name" : "Plant_Native_Status",
+        "titles" : "Plant_Native_Status",
+        "datatype" : "string"
+      }, {
+        "name" : "Insect_Field_ID_.Origin_Facility_ID_Number.",
+        "titles" : "Insect_Field_ID_.Origin_Facility_ID_Number.",
+        "datatype" : "string"
+      }, {
+        "name" : "Land_Category",
+        "titles" : "Land_Category",
+        "datatype" : "string"
+      }, {
+        "name" : "Site_Description",
+        "titles" : "Site_Description",
+        "datatype" : "string"
+      }, {
+        "name" : "Conservation_Practice_Number",
+        "titles" : "Conservation_Practice_Number",
+        "datatype" : "string"
+      }, {
+        "name" : "Site_Name",
+        "titles" : "Site_Name",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "State",
+        "datatype" : "string"
+      }, {
+        "name" : "County",
+        "titles" : "County",
+        "datatype" : "string"
+      }, {
+        "name" : "Elevation",
+        "titles" : "Elevation",
         "datatype" : "string"
       }, {
         "name" : "decimalLongitude",
@@ -97,16 +161,40 @@
         "titles" : "Latitude",
         "datatype" : "string"
       }, {
-        "name" : "Average Wind Speed (km/h)",
-        "titles" : "Average Wind Speed (km/h)",
+        "name" : "Average_Wind_Speed",
+        "titles" : "Average_Wind_Speed",
         "datatype" : "string"
       }, {
-        "name" : "Air temperature (°C)",
-        "titles" : "Air temperature (°C)",
+        "name" : "Temperature",
+        "titles" : "Temperature",
         "datatype" : "string"
       }, {
-        "name" : "Relative Humidity (%)",
-        "titles" : "Relative Humidity (%)",
+        "name" : "Relative_Humidity",
+        "titles" : "Relative_Humidity",
+        "datatype" : "string"
+      }, {
+        "name" : "Origin_Research_Facility",
+        "titles" : "Origin_Research_Facility",
+        "datatype" : "string"
+      }, {
+        "name" : "Contact",
+        "titles" : "Contact",
+        "datatype" : "string"
+      }, {
+        "name" : "Contact_Email",
+        "titles" : "Contact_Email",
+        "datatype" : "string"
+      }, {
+        "name" : "Contact_Address",
+        "titles" : "Contact_Address",
+        "datatype" : "string"
+      }, {
+        "name" : "Contact_Phone_Number",
+        "titles" : "Contact_Phone_Number",
+        "datatype" : "string"
+      }, {
+        "name" : "Citation",
+        "titles" : "Citation",
         "datatype" : "string"
       } ]
     }
