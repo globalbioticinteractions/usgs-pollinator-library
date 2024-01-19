@@ -1,8 +1,5 @@
-[![Build Status](https://travis-ci.com/globalbioticinteractions/usgs-pollinator-library.svg)](https://travis-ci.com/globalbioticinteractions/usgs-pollinator-library) [![GloBI](http://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:globalbioticinteractions/usgs-pollinator-library)](http://globalbioticinteractions.org/?accordingTo=globi:globalbioticinteractions/usgs-pollinator-library)
+[![GloBI Review by Elton](../../actions/workflows/review.yml/badge.svg)](../../actions/workflows/review.yml)  [![GloBI](http://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:globalbioticinteractions/usgs-pollinator-library)](http://globalbioticinteractions.org/?accordingTo=globi:globalbioticinteractions/usgs-pollinator-library)
 
 Configuration to help Global Biotic Interactions (GloBI, https://globalbioticinteractions.org) index the: 
 
-United States Geological Survey (USGS) Pollinator Library. https://www.npwrc.usgs.gov/pollinator.
-
-The included Pollinator_Library_Visits_Dataset.xlsx was accessed at http://www.npwrc.usgs.gov/pollinator/sites/default/files/site_files/Pollinator_Library_Visits_Dataset.xlsx on 2020-10-16 and manually converted into Pollinator_Library_Visits_Dataset.tsv .  
-
+Clint Otto, Russ Bryant, and Ned H. Euliss Jr., 2020, The U.S. Geological Survey Pollinator Library Dataset: U.S. Geological Survey. https://doi.org/10.5066/P9DSS3VL
