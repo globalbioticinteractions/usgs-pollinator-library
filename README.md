@@ -2,4 +2,4 @@
 
 Configuration to help Global Biotic Interactions (GloBI, https://globalbioticinteractions.org) index: 
 
-bla
+Clint Otto, Russ Bryant, and Ned H. Euliss Jr., 2020, The U.S. Geological Survey Pollinator Library Dataset: U.S. Geological Survey. https://doi.org/10.5066/P9DSS3VL
